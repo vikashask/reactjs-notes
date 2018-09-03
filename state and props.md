@@ -20,6 +20,28 @@ class Clock extends React.Component {
   }
 }
 
+### OR with class property
+
+class Clock extends React.Component {
+    
+    this.state = {counter: 0};
+
+    handlerClick =() => {
+        this.setState({
+            counter: this.state.counter + 1;
+        })
+    }
+    render() {
+        return (
+        <button onClick = {this.handlerClick}>
+        {this.state.counter}
+        </button>
+        );
+    }
+}
+
 
 ### props 
-= fixed value
+= fixed value, can not change
+
+
