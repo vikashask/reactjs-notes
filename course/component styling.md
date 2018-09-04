@@ -8,4 +8,9 @@
 ### get github user details
 https://api.github.com/users/vikashraj144
 
+### Read Form data from input
+    ref is used for to get data submitted from form
+    <input type="text"
+    ref = {(input)=> this.userName=input}
+    placeholder ="name" required />
 
