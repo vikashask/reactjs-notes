@@ -14,3 +14,12 @@ https://api.github.com/users/vikashraj144
     ref = {(input)=> this.userName=input}
     placeholder ="name" required />
 
+
+### Through state
+    state = {userName:''};
+    render(){
+    <input type="text"
+    value={this.state.userName}
+    onChange={(event)=>this.setState({userName:event.target.value})}
+    placeholder ="name" required />
+    }
