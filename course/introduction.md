@@ -1,3 +1,6 @@
+
+Add React Developer Tools extention in chrome
+
 ### state 
 = can be change 
 ### props 
